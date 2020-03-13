@@ -10,7 +10,7 @@
 <body>
   <header class="container-fluid headerBackgroundImage pb-5">
       <div class="row" id="navBar">
-        <div class="col-12">
+        <div class="col">
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between ">
             <a class="navbar-brand" href="#">
               <img class="img-fluid rounded-circle" src="https://picsum.photos/75" alt="">
@@ -37,7 +37,7 @@
         </div>
       </div><!-- End Nav Bar-->
       <div class="row" id="headerContent">
-        <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-end align-items-center">
           <p class="text-dark font-weight-bold text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates, dignissimos totam harum id placeat tenetur distinctio omnis iste, facilis magnam officia. Odit quod, doloremque culpa aspernatur esse accusantium quis?
           </p>
@@ -50,33 +50,33 @@
         </div>
       </div><!-- End Header Content-->
   </header><!-- End Header-->
-  <main>
+  <main class="mb-5">
     <div class="container-fluid">
       <div class="row bg-danger pt-3 mb-5">
         <div class="col-sm-4 d-flex flex-column align-items-center">
-          <div class="card w-50 border-0 bg-danger">
+          <div class="card w-50 border-0 bg-danger position-relative spillout">
             <img class="img-fluid card-img-top rounded-circle" src="https://picsum.photos/50" alt="">
             <div class="card-body text-center bg-primary mt-1">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-secondary">Go somewhere</a>
+              <a href="#" class="btn btn-secondary position-relative spillout">Go somewhere</a>
             </div>
           </div>
         </div><!-- End Card 1-->
         <div class="col-sm-4 d-flex flex-column align-items-center">
-          <div class="card w-50 border-0 bg-danger">
+          <div class="card w-50 border-0 bg-danger position-relative spillout">
             <img class="img-fluid card-img-top rounded-circle" src="https://picsum.photos/50" alt="">
             <div class="card-body text-center bg-primary mt-1">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-secondary">Go somewhere</a>
+              <a href="#" class="btn btn-secondary position-relative spillout">Go somewhere</a>
             </div>
           </div>
         </div><!-- End Card 2-->
         <div class="col-sm-4 d-flex flex-column align-items-center">
-          <div class="card w-50 border-0 bg-danger">
+          <div class="card w-50 border-0 bg-danger position-relative spillout">
             <img class="img-fluid card-img-top rounded-circle" src="https://picsum.photos/50" alt="">
             <div class="card-body text-center bg-primary mt-1">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-secondary">Go somewhere</a>
+              <a href="#" class="btn btn-secondary position-relative spillout">Go somewhere</a>
             </div>
           </div>
         </div><!-- End Card 3-->
@@ -87,20 +87,34 @@
         </div>
       </div><!-- End Line Break-->
     </div><!-- End Content Area 1-->
-    <div class="container">
-      <div class="row">
-        <div class="col-6"></div>
+    <div class="container mt-5">
+      <div class="row mt-5 align-items-center">
+        <div class="col col-md-6 d-flex justify-content-center mb-2">
+          <img class="img-fluid" src="https://picsum.photos/500/300" alt="">
+        </div>
+        <div class="col col-md-6">
+          <p class="text-dark font-weight-bold text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates, dignissimos totam harum id placeat tenetur distinctio omnis iste, facilis magnam officia. Odit quod, doloremque culpa aspernatur esse accusantium quis?
+          </p>
+        </div>
       </div>
     </div><!-- End Content Area 2-->
   </main><!-- End Main Content Area-->
   <footer class="container-fluid">
-    <div class="row">
-      <div class="col-12"></div><!-- End Footer Logo-->
+    <div class="row bg-danger">
+      <div class="col col-md-12 d-flex flex-column align-items-center mt-5 mb-3">
+        <img class="img-fluid" src="https://picsum.photos/100" alt="">
+        <h5 class="text-dark">Lorem, ipsum.</h5>
+      </div><!-- End Footer Logo-->
     </div>
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-2"></div>
+    <div class="row bg-dark text-light">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-self-md-start">
+        <h6>Lorem, ipsum</h6>
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-self-md-end">
+        <h6>Lorem, ipsum</h6>
+      </div>
     </div><!-- End Additional Footer Content-->
-  </footer><!-- End Footer-->
+  </footer><!-- End Footer--
 </body>
 </html>
